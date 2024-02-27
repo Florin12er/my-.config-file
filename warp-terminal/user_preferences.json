@@ -1,0 +1,19 @@
+{
+  "prefs": {
+    "Theme": "{\"Custom\":{\"name\":\"Catppuccin Mocha\",\"path\":\"/home/florin/.local/share/warp-terminal/themes/catppuccin_mocha.yml\"}}",
+    "FontName": "\"JetBrainsMono Nerd Font\"",
+    "VimModeEnabled": "true",
+    "ChangelogVersions": "{\"v0.2024.02.20.08.01.stable_02\":true}",
+    "AIAssistantRequestLimitInfo": "{\"limit\":100,\"num_requests_used_since_refresh\":20,\"next_refresh_time\":\"2024-02-28T08:49:09.665232Z\"}",
+    "WelcomeTipsFeaturesUsed": "[{\"Hint\":\"CreateBlock\"},{\"Action\":\"SplitPane\"},{\"Action\":\"WarpAI\"},{\"Hint\":\"BlockSelect\"},{\"Action\":\"ThemePicker\"},{\"Hint\":\"BlockAction\"}]",
+    "SystemTheme": "true",
+    "ExperimentId": "6f87b4c3-f828-4598-bbbb-ebfc52c18697",
+    "SelectedSystemThemes": "{\"light\":{\"Custom\":{\"name\":\"Catppuccin Latte\",\"path\":\"/home/florin/.local/share/warp-terminal/themes/catppuccin_latte.yml\"}},\"dark\":{\"Custom\":{\"name\":\"Catppuccin Mocha\",\"path\":\"/home/florin/.local/share/warp-terminal/themes/catppuccin_mocha.yml\"}}}",
+    "ReceivedReferralTheme": "\"Inactive\"",
+    "VimKeybindingsBannerState": "\"Dismissed\"",
+    "HonorPS1": "true",
+    "Shortcuts": "true",
+    "FontSize": "14.0",
+    "OverrideOpacity": "52"
+  }
+}
