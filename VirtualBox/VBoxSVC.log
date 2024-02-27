@@ -1,0 +1,122 @@
+00:00:00.000097 main     VirtualBox XPCOM Server 7.0.14 r161095 linux.amd64 (Jan 19 2024 13:54:29) release log
+00:00:00.000098 main     Log opened 2024-02-27T19:52:58.301809000Z
+00:00:00.000098 main     Build Type: release
+00:00:00.000099 main     OS Product: Linux
+00:00:00.000099 main     OS Release: 6.7.6-arch1-1
+00:00:00.000100 main     OS Version: #1 SMP PREEMPT_DYNAMIC Fri, 23 Feb 2024 16:31:48 +0000
+00:00:00.000110 main     DMI Product Name: MS-7D18
+00:00:00.000113 main     DMI Product Version: 1.0
+00:00:00.000115 main     Firmware type: UEFI
+00:00:00.000451 main     Secure Boot: Disabled
+00:00:00.000468 main     Host RAM: 15876MB (15.5GB) total, 13087MB (12.7GB) available
+00:00:00.000470 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000470 main     Process ID: 239204
+00:00:00.000470 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.001144 main     IPC socket path: /tmp/.vbox-florin-ipc/ipcd
+00:00:00.104641 nspr-2   VirtualBox: object creation starts
+00:00:00.104793 nspr-2   Home directory: '/home/florin/.config/VirtualBox'
+00:00:00.105048 nspr-2   Loading settings file "/home/florin/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.108856 nspr-2   USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0026)
+00:00:00.108894 nspr-2   USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0032)
+00:00:00.109209 nspr-2   Successfully initialised host USB using sysfs
+00:00:00.155570 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.156961 nspr-2   HostDnsMonitor: initializing
+00:00:00.157342 nspr-2   NAT: resolv.conf: nameserver 192.168.178.1
+00:00:00.157354 nspr-2   NAT: resolv.conf: nameserver fd00::4a5d:35ff:fe03:300f
+00:00:00.157358 nspr-2   NAT: resolv.conf: nameserver 2003:d0:1f0e:400:4a5d:35ff:fe03:300f
+00:00:00.157374 nspr-2   HostDnsMonitor: updating information
+00:00:00.157390 nspr-2   HostDnsMonitor: old information
+00:00:00.157392 nspr-2     no server entries
+00:00:00.157394 nspr-2     no domain set
+00:00:00.157395 nspr-2     no search string entries
+00:00:00.157397 nspr-2   HostDnsMonitor: new information
+00:00:00.157398 nspr-2     server 1: 192.168.178.1
+00:00:00.157401 nspr-2     server 2: fd00::4a5d:35ff:fe03:300f
+00:00:00.157402 nspr-2     server 3: 2003:d0:1f0e:400:4a5d:35ff:fe03:300f
+00:00:00.157404 nspr-2     domain: fritz.box
+00:00:00.157406 nspr-2     search string 1: fritz.box
+00:00:00.160199 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.161452 nspr-2   Loading settings file "/home/florin/VirtualBox VMs/win11/win11.vbox" with version "1.19-linux"
+00:00:00.162899 nspr-2   VirtualBox: object created
+00:00:00.589829 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Aborted)}, preserve=false aResultDetail=0
+00:00:01.408565 nspr-4   Saving settings file "/home/florin/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:01.420615 nspr-4   Finished saving settings file "/home/florin/.config/VirtualBox/VirtualBox.xml"
+00:00:01.829967 nspr-3   Launched VM: 536876336 pid: 239428 (0x3a744) frontend: GUI/Qt name: win11
+00:00:01.838454 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Aborted)}, preserve=false aResultDetail=0
+00:00:02.969343 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Aborted)}, preserve=false aResultDetail=0
+00:00:03.296379 nspr-8   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:08.309837 nspr-6   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:08.321393 nspr-6   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:08.337271 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:08.361961 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:00:08.380944 nspr-7   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:08.394400 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:08.548400 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:08.548854 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:08.601461 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:23.104224 nspr-5   Saving settings file "/home/florin/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:23.128289 nspr-5   Finished saving settings file "/home/florin/.config/VirtualBox/VirtualBox.xml"
+00:00:28.877981 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:00:32.033101 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:33.626898 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:00:34.860676 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Stopping)}, preserve=false aResultDetail=0
+00:00:34.861726 nspr-3   Saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox" with version "1.19-linux"
+00:00:34.867529 nspr-3   Finished saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox"
+00:00:34.868604 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
+00:00:34.872511 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
+00:00:35.021111 nspr-4   Saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox" with version "1.19-linux"
+00:00:35.023511 nspr-4   Finished saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox"
+00:00:35.029708 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:36.532693 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:37.854171 nspr-5   Launched VM: 4026536592 pid: 240495 (0x3ab6f) frontend: GUI/Qt name: win11
+00:00:37.861738 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:39.018032 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:39.345447 nspr-4   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:41.508722 nspr-6   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:41.523594 nspr-2   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:41.530541 nspr-5   Saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox" with version "1.19-linux"
+00:00:41.541644 nspr-5   Finished saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox"
+00:00:41.545905 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:41.557662 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:41.573955 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:00:41.594558 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:41.607851 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:41.788846 nspr-6   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:41.789308 nspr-5   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:41.803721 nspr-6   Saving settings file "/home/florin/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:41.805985 nspr-6   Finished saving settings file "/home/florin/.config/VirtualBox/VirtualBox.xml"
+00:00:41.842196 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:42.405655 nspr-6   Saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox" with version "1.19-linux"
+00:00:42.415802 nspr-6   Finished saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox"
+00:00:42.420048 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:45.405393 nspr-3   Saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox" with version "1.19-linux"
+00:00:45.407775 nspr-3   Finished saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox"
+00:00:48.263154 nspr-4   Saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox" with version "1.19-linux"
+00:00:48.265688 nspr-4   Finished saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox"
+00:00:49.091500 nspr-7   Saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox" with version "1.19-linux"
+00:00:49.093996 nspr-7   Finished saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox"
+00:00:49.188431 nspr-4   Saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox" with version "1.19-linux"
+00:00:49.190795 nspr-4   Finished saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox"
+00:00:50.037317 nspr-3   Saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox" with version "1.19-linux"
+00:00:50.039632 nspr-3   Finished saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox"
+00:00:50.905580 nspr-8   Saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox" with version "1.19-linux"
+00:00:50.908054 nspr-8   Finished saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox"
+00:00:59.019673 nspr-2   Saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox" with version "1.19-linux"
+00:00:59.029911 nspr-2   Finished saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox"
+00:00:59.035351 nspr-2   Saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox" with version "1.19-linux"
+00:00:59.037575 nspr-2   Finished saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox"
+00:01:05.080809 nspr-7   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:01:05.087411 nspr-6   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:01:05.091056 nspr-6   Saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox" with version "1.19-linux"
+00:01:05.093605 nspr-6   Finished saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox"
+00:02:14.475454 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Stopping)}, preserve=false aResultDetail=0
+00:02:14.476390 nspr-9   Saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox" with version "1.19-linux"
+00:02:14.486448 nspr-9   Finished saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox"
+00:02:14.669932 nspr-2   Saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox" with version "1.19-linux"
+00:02:14.672198 nspr-2   Finished saving settings file "/home/florin/VirtualBox VMs/win11/win11.vbox"
+00:02:21.176547 main     VirtualBox: object deletion starts
+00:02:21.176590 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/florin/VirtualBox VMs/win11/win11.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:02:21.176841 main     HostDnsMonitor: shutting down ...
+00:02:21.177092 main     HostDnsMonitor: shut down
+00:02:21.177930 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:02:21.199720 main     VirtualBox: object deleted
